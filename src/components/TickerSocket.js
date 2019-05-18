@@ -2,10 +2,11 @@ import React from "react"
 import { connect } from 'react-redux'
 
 import { updateStocklist, updateConnection } from "../store/actions"
-const env = process.env || "development"
+const env = process.env.NODE_ENV || "development"
 const socketURL = {
 	production: 'wss://stocks.mnet.website',
-	development: 'ws://stocks.mnet.website'
+	development: 'ws://stocks.mnet.website',
+	test: 'ws://stocks.mnet.website'
 }
 
 class TickerSocketDumb extends React.Component{
