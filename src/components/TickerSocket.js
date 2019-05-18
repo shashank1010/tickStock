@@ -2,7 +2,7 @@ import React from "react"
 import { connect } from 'react-redux'
 
 import { updateStocklist, updateConnection } from "../store/actions"
-const env = process.env.NODE_ENV || "development"
+const env = process.env.NODE_ENV || "production"
 const socketURL = {
 	production: 'wss://stocks.mnet.website',
 	development: 'ws://stocks.mnet.website',
