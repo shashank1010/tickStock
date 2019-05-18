@@ -40,7 +40,7 @@ class StockHistoryDumb extends React.Component {
 				data: data,
 				width: 100,
 				height: 20,
-				limit: 10,
+				limit: 40,
 				margin: 1,
 		}
 		return (
