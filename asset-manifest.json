@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tickStock/static/css/main.b8edea29.chunk.css",
+    "main.js": "/tickStock/static/js/main.67c5c3d8.chunk.js",
+    "main.js.map": "/tickStock/static/js/main.67c5c3d8.chunk.js.map",
+    "runtime~main.js": "/tickStock/static/js/runtime~main.f8de160a.js",
+    "runtime~main.js.map": "/tickStock/static/js/runtime~main.f8de160a.js.map",
+    "static/css/2.266e55a5.chunk.css": "/tickStock/static/css/2.266e55a5.chunk.css",
+    "static/js/2.f9dd59e5.chunk.js": "/tickStock/static/js/2.f9dd59e5.chunk.js",
+    "static/js/2.f9dd59e5.chunk.js.map": "/tickStock/static/js/2.f9dd59e5.chunk.js.map",
+    "index.html": "/tickStock/index.html",
+    "precache-manifest.936e62ed43f538289f3911d7294c1cba.js": "/tickStock/precache-manifest.936e62ed43f538289f3911d7294c1cba.js",
+    "service-worker.js": "/tickStock/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/tickStock/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.b8edea29.chunk.css.map": "/tickStock/static/css/main.b8edea29.chunk.css.map"
+  }
+}
