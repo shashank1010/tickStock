@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://shashank1010.github.io/tickStock",
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
