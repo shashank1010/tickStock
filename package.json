@@ -2,6 +2,7 @@
   "name": "stock-ticker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shashank1010.github.io/tickStock",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "prop-types": "^15.7.2",
