@@ -13,6 +13,7 @@ class TickerSocketDumb extends React.Component{
 	hasError = false
 	message = ""
 	componentDidMount() {
+		console.log(process.env)
 		this.connection = new WebSocket(socketURL[env]);
 		this.connection.onmessage = this.props.updateStocklist
 
