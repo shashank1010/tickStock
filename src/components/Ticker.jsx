@@ -11,7 +11,7 @@ import TickerRow from "./TickerRow"
 const CustomAlert = ({ variant, icon, message, children }) => (
     <Alert variant={variant} className="rounded-bottom text-center border-0 rounded-top-0 loader d-flex align-items-center justify-content-center flex-column">
         {
-            icon && <img src={`./${icon}.svg`} />
+            icon && <img src={`./${icon}.svg`} alt={ icon } />
         }
         <div className="mt-3">
             {

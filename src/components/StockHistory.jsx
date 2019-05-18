@@ -120,8 +120,6 @@ class StockHistoryDumb extends React.Component {
 const mapStateToProps = ({ stockListReducer: { symbol, stockList } }) => {
 	return { symbol, stockList }
 }
-const mapDispatchToProps = {}
-
 const StockHistory = connect(mapStateToProps)(StockHistoryDumb)
 
 export default StockHistory
