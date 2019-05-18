@@ -1,0 +1,30 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.navbar{
+  flex: auto 0 auto;
+}
+.stock-ticker-app{
+  flex: 1;
+  position: relative;
+}
+.loader{
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+}
+.live-status{
+  width: 8ch;
+}
+.rounded-top-0{
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#stick-list-dropdown + .dropdown-menu{
+  transform: none !important;
+}
