@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Timeago from "react-timeago"
 import { Link } from "react-router-dom"
 import { Sparklines, SparklinesCurve, SparklinesSpots, SparklinesBars } from 'react-sparklines';
 
@@ -16,8 +17,6 @@ const TickerRow = ({ symbol, stock, currentTime }) => {
         limit: 25,
         margin: 1
     }
-    const timeDifference = Math.floor((currentTime - (newCost || oldCost).timeStamp) / 1000)
-    const timeString = timeDifference === 0 ? "just now" : timeDifference === 1 ? "1 second ago" : `${timeDifference} seconds ago`
     return (
         <tr className="vert">
             <td className="align-middle">
@@ -25,7 +24,7 @@ const TickerRow = ({ symbol, stock, currentTime }) => {
             </td>
             <td className={`align-middle text-${ hasAppreciation === null ? "" : hasAppreciation === false ? 'danger' : 'success'}`}>{ number.format(price) }</td>
             <td className="align-middle">
-                { timeString }
+                <Timeago date={ (newCost || oldCost).timeStamp } />
             </td>
             <td className="align-middle p-0">
                 <Sparklines { ...sparkProps }>
