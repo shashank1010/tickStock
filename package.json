@@ -2,10 +2,7 @@
   "name": "stock-ticker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shashank1010.github.io/tickStock",
-  "engines": {
-    "node": "12.x"
-  },
+  "homepage": ".",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
@@ -18,6 +15,7 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "react-sparklines": "^1.7.0",
+    "react-timeago": "^4.4.0",
     "redux": "^4.0.1"
   },
   "scripts": {

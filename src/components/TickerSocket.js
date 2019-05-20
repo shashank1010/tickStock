@@ -2,13 +2,12 @@ import React from "react"
 import { connect } from 'react-redux'
 
 import { updateStocklist, updateConnection } from "../store/actions"
-const socketURL = 'wss://stocks.mnet.website'
+const socketURL = 'ws://stocks.mnet.website'
 
 class TickerSocketDumb extends React.Component{
 	hasError = false
 	message = ""
 	componentDidMount() {
-		console.log(process.env)
 		this.connection = new WebSocket(socketURL);
 		this.connection.onmessage = this.props.updateStocklist
 
@@ -40,7 +39,6 @@ class TickerSocketDumb extends React.Component{
 
 
 const mapDispatchToProps = { updateStocklist, updateConnection }
-  
 const TickerSocket = connect(null, mapDispatchToProps)(TickerSocketDumb)
 
 export default TickerSocket
