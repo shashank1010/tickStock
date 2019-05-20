@@ -1,4 +1,4 @@
-#tickStock
+# tickStock
 
 URL: https://shashank1010.github.io/tickStock
 
